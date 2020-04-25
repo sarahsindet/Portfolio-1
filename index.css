@@ -6,18 +6,39 @@ body{
     background-size: 100% 100%;
     padding-bottom: 8%;
     width: auto;
-    
+  scroll-behavior: smooth;
 }
-.header{
-    top: 0;
-    bottom: 0;
-    background-color: white;
-    opacity: 10.0;
+
     
-}
-.nav li {
+
+.navbar li {
     display: inline-block;
     margin: 2%;
+  } /* Style the navigation bar */
+  .navbar {
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+  }
+  
+  /* Navbar links */
+  .navbar a {
+    float: left;
+    text-align: center;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Navbar links on mouse-over */
+  .navbar a:hover {
+    background-color: #000;
+  }
+  
+  /* Current/active navbar link */
+  .active {
+    background-color: peru;
   }
   #one{
       border-radius: 50%;
@@ -27,4 +48,10 @@ body{
   }
   .sidebar {
     width: 30%;
-    float: left;background-color: paleturquoise;}
+    float: left;background-color:white; opacity: 0.6;}
+   
+    #books{
+        width:100px;
+        height:100px;
+    }
+    
