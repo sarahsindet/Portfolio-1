@@ -12,8 +12,19 @@ body{
     top: 0;
     bottom: 0;
     background-color: white;
-    opacity: 0.8;
-}.nav li {
+    opacity: 10.0;
+    
+}
+.nav li {
     display: inline-block;
     margin: 2%;
   }
+  #one{
+      border-radius: 50%;
+      width: 200px;
+      float:left;
+      background-color: ghostwhite;
+  }
+  .sidebar {
+    width: 30%;
+    float: left;background-color: paleturquoise;}
