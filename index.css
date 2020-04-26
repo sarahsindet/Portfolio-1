@@ -14,11 +14,13 @@ body{
 .navbar li {
     display: inline-block;
     margin: 2%;
-  } /* Style the navigation bar */
+  } 
+  /* Style the navigation bar */
   .navbar {
     width: 100%;
     background-color: white;opacity: 0.8;
     overflow: auto;
+    position: sticky;
   }
   
   /* Navbar links */
@@ -33,12 +35,12 @@ body{
   
   /* Navbar links on mouse-over */
   .navbar a:hover {
-    background-color:honeydew
+    background-color:gainsboro;
   }
   
   /* Current/active navbar link */
   .active {
-    background-color: peru;
+    background-color: peru; opacity: 0.9;
   }
   #one{
       border-radius: 50%;
@@ -54,4 +56,18 @@ body{
         width:100px;
         height:100px;
     }
+    #aboute{
+      background-color:white;
+      width: 95%;
+      height: 40%;
+      opacity: 0.8;
+      box-shadow: 0 8px 6px -6px black;
+      margin: 1%;
+      position: relative;
+    }
     
+    .column {
+      width: 350px;
+      float: left;
+    }
+   
