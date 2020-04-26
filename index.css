@@ -78,3 +78,6 @@ body{
   height: 220px;
   width: 220px;
 }
+#contacts{
+  background-color: honeydew;opacity: 0.8;
+}
