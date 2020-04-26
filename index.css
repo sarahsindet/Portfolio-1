@@ -70,4 +70,11 @@ body{
       width: 350px;
       float: left;
     }
-   
+    .pro{
+      display: flex;
+      padding: 0px;
+    }
+#pic{
+  height: 220px;
+  width: 220px;
+}
