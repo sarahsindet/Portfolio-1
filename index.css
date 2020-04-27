@@ -95,4 +95,16 @@ body{
   width: 40%;
   height: 40%;
 }
-p2{background-color: ghostwhite;opacity: 0.8;}
+p2{background-color: ghostwhite;
+  opacity: 0.8;
+}
+  button:hover:before{
+    width: 200%;
+    height: 300px;
+  }
+  button:hover{
+    border: 3px dotted #33aa77;
+    color:palegoldenrod;
+    background-color: peachpuff;
+  }
+
