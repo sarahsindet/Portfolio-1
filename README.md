@@ -1,7 +1,7 @@
 # Author
 ## Sarah sindet
 # File name Title
-## this is my potfolio contains all details about me, my skills my hobbies
+## this is my potfolio contains all details about me, my skills my projects
 ### Also has links to my other previous projects
 # Date designed 
 ## 25 April 2020
