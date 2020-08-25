@@ -1,33 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" type="text/css"  href="index.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-   <title>Portfolio1</title>
-</head>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Righteous"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <title>Welcome To My Portfolio</title>
+  </head>
+
 <body>
-        <div class="navbar"><img id="one" src="images/image2.png">
+
+    
+        <div class="navbar">
+            <img id="one" src="images/image2.png">
             <ul>
-              <li><a class="active" href="#home"><i class="fa fa-fw fa-home"></i> Home</a></li>
+               <li><a class="active" href="#home"><i class="fa fa-fw fa-home"></i> Home</a></li>
                <li><a href="#aboute"><i class="fa fa-fw fa-user"></i> About me</a></li>
-                <li><a href="#projects"><i class="fa fa-fw fa-laptop"></i> My Projects</a></li>
+               <li><a href="#projects"><i class="fa fa-fw fa-laptop"></i> My Projects</a></li>
                <li><a href="#contacts"><i class="fa fa-fw fa-envelope"></i> Contacts</a></li>
             </ul>
         </div>
-    
-        <div class="text" id="home">
-            <h1>Hello There!!</h1>
-            <p>Am <strong>Sarah Sindet</strong>a junior Web developer @Moringa school i started coding whilei was in highschool after persuing ComputerStudies</p>
-            <em>Aggressive to do what am passionate in</em>
-          </div>
-    
-        
-       
-       
+        <br />
+
+        <!-- landing -->
+        <div class="landing" style="color:floralwhite;">
+          <br>
+          <h1>Hello-There! Am Sarah Sindet</h1>
+          <h3>Full Stack Web Developer</h3>
+          <br>
+        </div>
         <div class= "column" id="aboute">
-            <h2>About me</h2>
+            <h2 id="at">About me</h2>
             <img  id="books" src="images/image3.jpg">
             <div class="column" id="edu">
             <h3>Education</h3>
@@ -56,31 +77,312 @@
                 
             </ul>
         </div> 
-        </div> 
-          
-        
-        <h2>My Projects</h2>
-        <div id="projects"  class="pro" style="margin: 5rem;">
-          <div class="cont" style="padding-right: 20px;">
-            <p2>A project about a site where you can fetch the latest designs</p2>
-            <img  id="pik" src="images/image 5.jpeg">
-      
-            <p><button><a href="https://sarahsindet.github.io/Be-Smart/">view</a></button></p>
-          </div>
-      
-           <div class="cont" style="padding-right: 20px;">
-            <p2>A project about milk production and how you can calculate your yearly income</p2>
-            <img  id ="pic" src="images/image4.jpeg">
-      
-            <p><button><a href="https://sarahsindet.github.io/Dairy-milk/">view</a></button></p>
-           </div>
-      </div>
+        </div> <h3>More on skills my skills</h3>
 
-          
-      
-      
-      <div id="contacts">
+        <div id="skills">
+            <h4 id=skil style="text-align:center; color: #4568d4;">TECHNICAL SKILLS</h4>
+            <br />
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card" style="width: 20rem;">
+                  <div class="card-header">FRONT END</div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                      <i
+                        class="fa fa-caret-square-o-right"
+                        style="color:#008080;"
+                      ></i>
+                      HTML
+                    </li>
+                    <li class="list-group-item">
+                      <i
+                        class="fa fa-caret-square-o-right"
+                        style="color:#008080;"
+                      ></i>
+                      CSS
+                    </li>
+                    <li class="list-group-item">
+                      <i
+                        class="fa fa-caret-square-o-right"
+                        style="color:#008080;"
+                      ></i>
+                      Bootstrap
+                    </li>
+                    <li class="list-group-item">
+                      <i
+                        class="fa fa-caret-square-o-right"
+                        style="color:#008080;"
+                      ></i>
+                      JavaScript/JQuery
+                    </li>
+                    <li class="list-group-item">
+                      <i
+                        class="fa fa-caret-square-o-right"
+                        style="color:#008080;"
+                      ></i>
+                      Angular
+                    </li>
+                  </ul>
+                </div>
+              </div>
+    
+              <div class="col-md-4">
+                <div class="card" style="width: 20rem;">
+                  <div class="card-header">BACK END</div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                      <i
+                        class="fa fa-caret-square-o-right"
+                        style="color:red;"
+                      ></i>
+                      Python
+                    </li>
+                    <li class="list-group-item">
+                      <i
+                        class="fa fa-caret-square-o-right"
+                        style="color:red;"
+                      ></i>
+                      CSS
+                    </li>
+                    <li class="list-group-item">
+                      <i
+                        class="fa fa-caret-square-o-right"
+                        style="color:red;"
+                      ></i>
+                      PostgreSQL database
+                    </li>
+                  </ul>
+                </div>
+              </div>
+    
+              <div class="col-md-4">
+                <div class="card" style="width: 20rem;">
+                  <div class="card-header">FRAMEWORKS AND TOOLS</div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                      <i
+                        class="fa fa-caret-square-o-right"
+                        style="color:blue;"
+                      ></i>
+                      Bootstrap
+                    </li>
+                    <li class="list-group-item">
+                      <i
+                        class="fa fa-caret-square-o-right"
+                        style="color:blue;"
+                      ></i>
+                      Flask
+                    </li>
+                    <li class="list-group-item">
+                      <i
+                        class="fa fa-caret-square-o-right"
+                        style="color:blue;"
+                      ></i>
+                      Django
+                    </li>
+                    <li class="list-group-item">
+                      <i
+                        class="fa fa-caret-square-o-right"
+                        style="color:blue;"
+                      ></i>
+                      Github
+                    </li>
+                    <li class="list-group-item">
+                      <i
+                        class="fa fa-caret-square-o-right"
+                        style="color:blue;"
+                      ></i>
+                      Heroku
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <br /><br />
+          </div>
+          <br />       
+
+          <div id="projects">
+            <h4 style="text-align:center; color: #4caf50;">PROJECTS</h4>
+            <p style="text-align:center;">
+              Here are some of the projects I have worked on.
+            </p>
+            <br />
+    
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card" style="width: 25rem;">
+                  <img class="card-img-top" src="images/awards.png" alt="awards" />
+                  <div class="card-body">
+                    <h6 class="card-title">Awwwards App</h6>
+                    <p class="card-text" style="font-size:12px;">
+                      This is an application allows a user to post a project he/she has created
+                      and get it reviewed by others.On post your project is rated to achive the site of the day<br />
+                      The app was created using Django, a Python framework and Postgres database.
+                    </p>
+                    <a
+                      target="_blank"
+                      href="https://github.com/sarahsindet/Awwwards"
+                      class="btn btn-outline-success btn-sm"
+                      >Github link</a
+                    >
+                    <a
+                      target="_blank"
+                      href="https://awward2.herokuapp.com/"
+                      class="btn btn-outline-success btn-sm"
+                      >Heroku link</a
+                    >
+                  </div>
+                </div>
+                <br />
+              </div>
+    
+              <div class="col-md-4">
+                <div class="card" style="width: 25rem;">
+                  <img class="card-img-top" src="images/Screenshot from 2020-08-25 03-13-28.png" alt="blog" />
+                  <div class="card-body">
+                    <h6 class="card-title">Instagram App</h6>
+                    <p class="card-text" style="font-size:12px;">
+                      This is a clone of the daily instagram app one can post pictures vie others post comment and like 
+                      them.<br />
+                      It was created using Django, a Python framework and Postgres
+                      Database.
+                    </p>
+                    <a
+                      target="_blank"
+                      href="https://github.com/sarahsindet/Instagram-Clone"
+                      class="btn btn-outline-success btn-sm"
+                      >Github link</a
+                    >
+                    <a
+                      target="_blank"
+                      href="https://sarah-cloneinstagram.herokuapp.com/accounts/login/?next=/"
+                      class="btn btn-outline-success btn-sm"
+                      >Heroku link</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <br />
+    
+              <div class="col-md-4">
+                <div class="card" style="width: 25rem;">
+                  <img
+                    class="card-img-top"
+                    src="images/Screenshot from 2020-08-25 03-12-10.png"
+                    alt="gallery"
+                  />
+                  <div class="card-body">
+                    <h6 class="card-title">Pizza App</h6>
+                    <p class="card-text" style="font-size:12px;">
+                      This is an application where one can make ii easy for purchase of pizza by just making a clear order per th users needs and specification. <br />
+                      The app was created using Javascript,Bootstrap and html.
+                    
+                    </p>
+                    <a
+                      target="_blank"
+                      href="https://github.com/sarahsindet/Pizza-Taste"
+                      class="btn btn-outline-success btn-sm"
+                      >Github link</a
+                    >
+                    <a
+                      target="_blank"
+                      href="https://sarahsindet.github.io/Pizza-Taste/"
+                      class="btn btn-outline-success btn-sm"
+                      >Live link</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <br />
+    
+              <div class="col-md-4">
+                <div class="card" style="width: 25rem;">
+                  <img class="card-img-top" src="images/Screenshot from 2020-08-18 09-38-01.png" alt="news" />
+                  <div class="card-body">
+                    <h6 class="card-title">News App</h6>
+                    <p class="card-text" style="font-size:12px;">
+                      This is an application where you can view news sources and
+                      articles from various sources.<br />
+                      The app was created using Flask, a Python framework and
+                      Postgres database.
+                    </p>
+                    <a
+                      target="_blank"
+                      href="https://github.com/sarahsindet/NEWS-API"
+                      class="btn btn-outline-success btn-sm"
+                      >Github link</a
+                    >
+                    <a
+                      target="_blank"
+                      href="https://news-sarah.herokuapp.com/"
+                      class="btn btn-outline-success btn-sm"
+                      >Heroku link</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <br />
+    
+              <div class="col-md-4">
+                <div class="card" style="width: 25rem;">
+                  <img class="card-img-top" src="images/Screenshot from 2020-08-25 03-16-51.png" alt="pitch" />
+                  <div class="card-body">
+                    <h6 class="card-title">Github App</h6>
+                    <p class="card-text" style="font-size:12px;">
+                      This is an application where users can globally searsinng github hece view their repo and projects.
+                      .<br />
+                      It was created using Angular, and Postgres Database.
+                      
+                    </p>
+                    <a
+                      target="_blank"
+                      href="https://github.com/sarahsindet/Git-Search"
+                      class="btn btn-outline-success btn-sm"
+                      >Github link</a
+                    >
+                    <a
+                      target="_blank"
+                      href="https://sarahsindet.github.io/Git-Search/"
+                      class="btn btn-outline-success btn-sm"
+                      >Heroku link</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <br />
+    
+              <div class="col-md-4">
+                <div class="card" style="width: 25rem;">
+                  <img class="card-img-top" src="images/Screenshot from 2020-08-18 09-46-49.png" alt="shop" />
+                  <div class="card-body">
+                    <h6 class="card-title"><Akan-NAMES></Akan-NAMES></h6>
+                    <p class="card-text" style="font-size:12px;">
+                      This is an APP whereone can check his or akan name by inputting their birth details and receiving an easy retrival of their Akan name.<br />
+                      The app was created using Javascript, bootstrap and html.
+                      
+                    </p>
+                    <a
+                      target="_blank"
+                      href="https://github.com/sarahsindet/Access-Akan-Names"
+                      class="btn btn-outline-success btn-sm"
+                      >Github link</a
+                    >
+                    <a
+                      target="_blank"
+                      href="https://sarahsindet.github.io/Access-Akan-Names/"
+                      class="btn btn-outline-success btn-sm"
+                      >Live link</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>          
+ 
+          <div id="contacts">
             <h2>Contacts</h2>
+            <img  id =call src="images/call.jpg">
             <div id="txt">Get in touch with me and lets connect<br>
                 <p>email:sarahsindet@gmail.com
                     <br>
@@ -95,9 +397,9 @@
                 <a class="ic"
                     href="https://myaccount.google.com/people-and-sharing"
                     target="_blank"><i class="fa fa-envelope"></i></a>
+                    <br><br>
                 <a class="ic"
                     href="https://github.com/sarahsindet"
                     target="_blank"><i class="fa fa-github"></i></a>
             </div>
-        </div> 
-                
+        </div>           
